@@ -8,8 +8,8 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const Flower = await hre.ethers.getContractFactory("Flower");
-  const flower = await Flower.deploy(
+  const Balloon = await hre.ethers.getContractFactory("Balloon");
+  const balloon = await Balloon.deploy(
     [
       hre.ethers.utils.parseEther("10"),
       hre.ethers.utils.parseEther("10"),
@@ -18,10 +18,10 @@ async function main() {
     "0x875Fa8aCaAe9fD57De678f9e52dF324B6279FF58" // water
   );
 
-  await flower.deployed();
+  await balloon.deployed();
 
   console.log(
-    `Flower Contract deployed to ${flower.address}`
+    `Balloon Contract deployed to ${balloon.address}`
   );
 }
 

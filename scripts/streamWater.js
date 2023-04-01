@@ -22,13 +22,13 @@ async function main() {
         dataMode: "WEB3_ONLY"
     });
 
-    const signer = await hre.ethers.getSigner();  // receives minted WATER tokens
+    const signer = await hre.ethers.getSigner();  // receives minted AIR tokens
 
     const createFlowOp = sf.cfaV1.createFlow({
         superToken: deployedContracts.superWater.address,
         sender: signer.address,
-        receiver: deployedContracts.flower.address,
-        flowRate: "33333333333333332" // 10 WATERx / 5 min
+        receiver: deployedContracts.balloon.address,
+        flowRate: "33333333333333332" // 10 AIRx / 5 min
     });
     let tx = await createFlowOp.exec(signer);
     await tx.wait();

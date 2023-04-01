@@ -15,7 +15,7 @@ async function main() {
       hre.ethers.utils.parseEther("10"),
       hre.ethers.utils.parseEther("10")
     ],
-    "0x875Fa8aCaAe9fD57De678f9e52dF324B6279FF58" // water
+    "replace with future air token contract address" // air 
   );
 
   await balloon.deployed();

@@ -59,7 +59,7 @@ contract Balloon is ERC721, SuperAppBase {
         ISuperToken _acceptedToken
     ) ERC721(
         "Balloon",
-        "FLWR"  
+        "Balloon"  
     ) {
 
 

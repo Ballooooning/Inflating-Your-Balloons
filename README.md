@@ -4,7 +4,7 @@ When you purchase Air tokens for the first time, you will automatically receive 
 For example, There will be 5 "tiers" of your balloon NFT that will increase in size as you stream, or pump, more Air into your balloon NFT according to the illustration below. 
 
 Balance:
-0 - 1,000 Air tokens
+
 
 
 
